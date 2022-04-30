@@ -20,7 +20,7 @@ export const Feature = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -55,50 +55,41 @@ export const Feature = () => {
               </h1>
               <div class="h-1 w-20 bg-gradient-to-br from-yellow-500 to-pink-500 rounded"></div>
             </div>
-            <div class="lg:w-4/5">
+            <div class="lg:w-4/5 overflow-hidden">
               <Slider {...settings}>
                 <div class="px-1">
-                  <div class="h-full flex items-center border-2 p-2 rounded-lg">
+                  <div class="px-2">
                     <img
                       alt="team"
-                      class="w-full bg-gray-100 object-cover object-center flex-shrink-0 rounded "
-                      src="https://dummyimage.com/90x30"
+                      class="w-60 bg-gray-100 object-cover object-center flex-shrink-0 rounded "
+                      src={scoopwhoop}
                     />
                   </div>
                 </div>
                 <div class="px-1">
-                  <div class="h-full flex items-center border-2 p-2 rounded-lg">
+                  <div class="px-2">
                     <img
                       alt="team"
-                      class=" w-full bg-gray-100 object-cover object-center flex-shrink-0 rounded "
-                      src="https://dummyimage.com/90x30"
+                      class=" w-60 bg-gray-100 object-cover object-center flex-shrink-0 rounded "
+                      src={startuptalky}
                     />
                   </div>
                 </div>
                 <div class="px-1">
-                  <div class="h-full flex items-center  border-2 p-2 rounded-lg">
+                  <div class="px-2">
                     <img
                       alt="team"
-                      class=" w-full bg-gray-100 object-cover object-center flex-shrink-0 rounded "
-                      src="https://dummyimage.com/90x30"
+                      class=" w-60 bg-gray-100 object-cover object-center flex-shrink-0 rounded "
+                      src={bbc}
                     />
                   </div>
                 </div>
                 <div class="px-1">
-                  <div class="h-full flex items-center  border-2 p-2 rounded-lg">
+                  <div class="px-2">
                     <img
                       alt="team"
-                      class=" w-full bg-gray-100 object-cover object-center flex-shrink-0 rounded "
-                      src="https://dummyimage.com/90x30"
-                    />
-                  </div>
-                </div>
-                <div class="px-1">
-                  <div class="h-full flex items-center  border-2 p-2 rounded-lg">
-                    <img
-                      alt="team"
-                      class=" w-full bg-gray-100 object-cover object-center flex-shrink-0 rounded "
-                      src="https://dummyimage.com/90x30"
+                      class=" w-60 bg-gray-100 object-cover object-center flex-shrink-0 rounded "
+                      src={yourstory}
                     />
                   </div>
                 </div>

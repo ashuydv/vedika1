@@ -1,58 +1,107 @@
-import React from "react";
+import React, { useState } from "react";
+import "../assets/css/Header.css";
+import logo from "../assets/images/logo.png";
 
 export const Header = () => {
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+
   return (
     <div>
-      <header className="text-gray-400 bg-gray-900 body-font">
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a
-            href="#"
-            className="flex title-font font-medium items-center text-white mb-4 md:mb-0 "
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              className="w-10 h-10 text-white p-2 bg-gradient-to-br from-yellow-500 to-pink-500 rounded-full"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-            </svg>
-            <span className="ml-3 text-xl">TheFourthSquare</span>
+      <nav className="navbar rounded-b">
+        <div className="nav-container">
+          <a class="flex title-font font-medium items-center text-gray-900 bg-white md:mb-0 sm:mb-0 sm:p-0">
+            <img
+              class="w-20 h-20 logo"
+              src={logo}
+            />
+            <span class="ml-2 text-xl">The Fourth Square</span>
           </a>
-          <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-            <a href="#" className="mr-5 hover:text-white">
-              First Link
-            </a>
-            <a href="#" className="mr-5 hover:text-white">
-              Second Link
-            </a>
-            <a href="#" className="mr-5 hover:text-white">
-              Third Link
-            </a>
-            <a href="#" className="mr-5 hover:text-white">
-              Fourth Link
-            </a>
-          </nav>
-          <button className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
-            Button
-            <svg
-              fill="none"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              className="w-4 h-4 ml-1"
-              viewBox="0 0 24 24"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </button>
+          <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <li className="nav-item">
+              <a
+                exact
+                href="/"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                exact
+                href="/feature"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Feature
+              </a>
+            </li>
+            {/* <li className="nav-item">
+              <a
+                exact
+                href="/pricing"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Pricing
+              </a>
+            </li> */}
+            <li className="nav-item">
+              <div className="dots"></div>
+              <a
+                exact
+                href="/launch2022"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Launch 2022
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                exact
+                href="/courses"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Courses
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                exact
+                href="/blogs"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Blogs
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                exact
+                href="/quadrangle"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Quadrangle
+              </a>
+            </li>
+          </ul>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
+          </div>
         </div>
-      </header>
+      </nav>
     </div>
   );
 };

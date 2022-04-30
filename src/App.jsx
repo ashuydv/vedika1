@@ -1,4 +1,5 @@
 import {
+  About,
   Header,
   Hero,
   Brands,
@@ -18,10 +19,11 @@ function App() {
       <Header />
       <Hero />
       <Feature />
+      <About/>
       <Brands />
       <LinkedIn />
       <Twitter />
-      <Payment />
+  
       <Statistics />
       <Testimonials />
       <Footer />

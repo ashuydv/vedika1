@@ -13,7 +13,7 @@ export const Footer = () => {
               stroke-linecap="round"
               stroke-linejoin="round"
               stroke-width="2"
-              class="w-10 h-10 text-white p-2 bg-gradient-to-br from-yellow-500 to-pink-500 rounded-full"
+              class="w-10 h-10 text-white p-2 bg-gradient-to-br from-blue-500 to-purple-500 rounded-full"
               viewBox="0 0 24 24"
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
@@ -23,12 +23,12 @@ export const Footer = () => {
           <p class="text-sm text-gray-400 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-800 sm:py-2 sm:mt-0 mt-4">
             © 2022 TheFourthSquare —
             <a
-              href="https://twitter.com/knyttneve"
+              href="https://twitter.com/ashu_ydv18"
               class="text-gray-500 ml-1"
               target="_blank"
               rel="noopener noreferrer"
             >
-              @knyttneve
+              @ashu_ydv18
             </a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

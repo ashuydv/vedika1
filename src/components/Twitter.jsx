@@ -26,7 +26,7 @@ export const Twitter = () => {
         <div class="container px-5 py-24 mx-auto flex flex-wrap">
           <div class="flex flex-col flex-wrap lg:py-6 lg:w-1/2  lg:text-left text-center">
             <div class="flex flex-col mb-10 lg:items-start items-center">
-              {/* <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-yellow-400 mb-5">
+              {/* <div class="w-12 h-12 inline-flex items-center justify-center rounded-full bg-gray-800 text-blue-400 mb-5">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -43,7 +43,7 @@ export const Twitter = () => {
                 <h2 class="text-white text-3xl title-font font-medium mb-3">
                   Twitter Consultation
                 </h2>
-                <div class="h-1 w-20 bg-gradient-to-br from-yellow-500 to-pink-500 rounded mb-2"></div>
+                <div class="h-1 w-20 bg-gradient-to-br from-purple-500 to-blue-500 rounded mb-2"></div>
                 <p class="leading-relaxed text-base">
                   As a result of Twitter's emphasis on the short form of
                   content, I approached content creation on Twitter as a
@@ -62,7 +62,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -81,7 +81,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -100,7 +100,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -119,7 +119,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -138,7 +138,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -157,7 +157,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -176,7 +176,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -195,7 +195,7 @@ export const Twitter = () => {
                         stroke-linecap="round"
                         stroke-linejoin="round"
                         stroke-width="3"
-                        class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                        class="text-blue-400 w-6 h-6 flex-shrink-0 mr-4"
                         viewBox="0 0 24 24"
                       >
                         <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
@@ -211,12 +211,12 @@ export const Twitter = () => {
             </div>
             <button
               onClick={displayRazorpay}
-              class="flex mx-auto text-white bg-gradient-to-br from-yellow-500 to-pink-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              class="flex mx-auto text-white bg-gradient-to-br from-blue-500 to-purple-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
             >
               Ready, Set, Go!!
             </button>
           </div>
-          <div class="lg:w-1/2 w-full lg:mb-0 rounded-lg lg:pl-12 overflow-hidden">
+          <div class="lg:w-1/2 w-full lg:mb-0 rounded-lg lg:pl-12 sm:my-4 overflow-hidden">
             <img
               alt="feature"
               class="object-cover object-center h-full w-full"
